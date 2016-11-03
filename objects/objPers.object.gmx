@@ -54,8 +54,61 @@ sprmelee = false;
 sprmuere = false;
 sprdefensa = false;
 
+canshoot = true;
+canmelee = true;
+
 canend = true;
 theend = false;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="8">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Reactivación de Ataque.
+
+canmelee = true;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="7">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Reactivación de balas.
+
+canshoot = true;
 </string>
           </argument>
         </arguments>
@@ -359,10 +412,11 @@ ultiatq = keyboard_check_pressed(vk_enter);
 
 // Ataques
 
-if (atbas)&amp;&amp;
-    (canatq){
+if (atbas)&amp;&amp;(canatq)&amp;&amp;(canmelee){
 global.atbas = true;
 sprmelee = true;
+canmelee = false;
+alarm[8] = 45
 }
 else{
 global.atbas = false
@@ -474,9 +528,11 @@ if (theend){
             <kind>1</kind>
             <string>/// Controles de Balas
 
-if (atdist){
+if (atdist)&amp;&amp;(canshoot){
 sprdistancia = true;
-instance_create(x,y,objBalaPers)
+instance_create(x,y,objBalaPers);
+canshoot = false;
+alarm[7] = 60
 }
 </string>
           </argument>
@@ -769,6 +825,7 @@ barravel = (powervel/450)*100
 
 if (xvel = 11){
 draw_healthbar(48,682,98,687,barravel,c_gray,c_purple,c_blue,0,true,true);
+draw_text_colour(105,678,"¡Power-Up: velocidad!",c_purple,c_blue,c_purple,c_blue,1000)
 }
 
 // Barra Power-Up de Defensa.
@@ -777,6 +834,7 @@ barrahlth = (powerhlth/450)*100
 
 if (hlthmax = 110)||(hlthmax = 120)||(hlthmax = 130){
 draw_healthbar(48,702,98,707,barrahlth,c_gray,c_red,c_fuchsia,0,true,true);
+draw_text_colour(105,698,"¡Power-Up: defensa!",c_red,c_fuchsia,c_red,c_fuchsia,1000)
 }
 
 // Barra Power-Up de Ataque.
@@ -785,6 +843,7 @@ barradmg = (powerdmg/450)*100
 
 if (xtradmg = 3)||(xtradmg = 5)||(xtradmg = 7){
 draw_healthbar(48,692,98,697,barradmg,c_gray,c_orange,c_yellow,0,true,true);
+draw_text_colour(105,688,"¡Power-Up: ataque!",c_orange,c_yellow,c_orange,c_yellow,1000)
 }
 
 </string>

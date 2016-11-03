@@ -63,8 +63,6 @@
     <instance objName="objMuro" x="1035" y="-29" name="inst_D8129352" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMuro" x="1191" y="-29" name="inst_FE2D25F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCasillero3" x="890" y="-2" name="inst_E191287D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCasillero2" x="957" y="-2" name="inst_63824403" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCasillero2" x="1024" y="-2" name="inst_80CD5C10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objArmario" x="1113" y="3" name="inst_135EE4AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objVentana2" x="1230" y="-5" name="inst_6AA43E5D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBanca" x="731" y="-7" name="inst_76DAAA61" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

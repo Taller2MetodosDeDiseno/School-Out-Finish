@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>audio_play_sound(sndSchoolOut,10,true)
+
 </string>
           </argument>
         </arguments>
@@ -48,10 +49,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (keyboard_check(vk_space)){
-audio_stop_sound(sndSchoolOut)
-}
-</string>
+            <string></string>
           </argument>
         </arguments>
       </action>

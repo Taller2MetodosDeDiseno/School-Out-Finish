@@ -204,7 +204,7 @@
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\objInicio222</object>
+    <object>objects\objInicio</object>
     <object>objects\objLevels</object>
     <object>objects\objEnd</object>
     <object>objects\objPers</object>

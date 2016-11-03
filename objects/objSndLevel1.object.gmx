@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>audio_play_sound(sndRoof_1,10,true)
+            <string>audio_stop_sound(sndSchoolOut)
+audio_play_sound(sndRoof_1,10,true)
 </string>
           </argument>
         </arguments>

@@ -28,7 +28,7 @@
             <string>/// Variables Iniciales
 
 x = random(room_width);
-y = random_range(144,room_height);
+y = choose(201,316,432,547,662);
 
 vspeed = 0;
 
