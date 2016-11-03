@@ -87,7 +87,7 @@ sprite_index = sprCasillero1
             <string>/// Control de Dropeo.
 
 interact = (place_meeting(x,y,objPers))&amp;&amp;
-            (keyboard_check(vk_shift))&amp;&amp;
+            (keyboard_check(vk_numpad1))&amp;&amp;
             (keyboard_check(vk_space));
 
 if (interact)&amp;&amp;(candrop){

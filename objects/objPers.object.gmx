@@ -407,7 +407,7 @@ canatq = false;
 // Comandos de ataque
 
 atbas = keyboard_check_pressed(vk_space);
-atdist = keyboard_check_pressed(vk_shift);
+atdist = keyboard_check_pressed(vk_numpad1);
 ultiatq = keyboard_check_pressed(vk_enter);
 
 // Ataques
