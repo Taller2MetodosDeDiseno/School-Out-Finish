@@ -59,8 +59,7 @@
     <instance objName="objMuro" x="778" y="-26" name="inst_D60A1E63" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMuro" x="934" y="-26" name="inst_0B694F1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMuro" x="1090" y="-26" name="inst_9139DD90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objMuro" x="1246" y="-26" name="inst_61AE4525" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCasillero1" x="8" y="0" name="inst_5CB4325D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objMuro" x="1246" y="-24" name="inst_61AE4525" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRepisa2" x="166" y="2" name="inst_B35B88B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRepisa2" x="310" y="2" name="inst_9EAE8B39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRepisa1" x="956" y="4" name="inst_7325DE5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -73,10 +72,11 @@
     <instance objName="objEnergiz" x="1142" y="82" name="inst_6E9ACF6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objEnergiz" x="1224" y="84" name="inst_DEB07927" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBalaNerdBas" x="1182" y="82" name="inst_167E273B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCasillero1" x="1270" y="2" name="inst_9F580F12" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCasillero1" x="-2" y="0" name="inst_9F580F12" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPers" x="48" y="472" name="inst_38021ACD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCtrlEnemN1" x="38" y="184" name="inst_EB88C7FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSndLevel1" x="90" y="188" name="inst_70064DBD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCtrlEnemN1" x="246" y="164" name="inst_EB88C7FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSndLevel1" x="274" y="162" name="inst_70064DBD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCasillero1" x="1270" y="4" name="inst_B5183AF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

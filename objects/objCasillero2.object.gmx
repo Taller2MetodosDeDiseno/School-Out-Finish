@@ -32,6 +32,7 @@ candrop = true;
 drop = choose(1,2);
 dropquality = choose(1,2,3,4,5,6,7,8,9,10);
 droptype = choose(1,2,3,4)
+global.contact = false;
 </string>
           </argument>
         </arguments>
@@ -86,7 +87,9 @@ sprite_index = sprCasillero2
             <kind>1</kind>
             <string>/// Control de Dropeo.
 
-interact = (place_meeting(x,y,objPers))&amp;&amp;
+global.contact = (place_meeting(x,y + 100,objPers))
+
+interact = (global.contact)&amp;&amp;
             (keyboard_check(vk_numpad1))&amp;&amp;
             (keyboard_check(vk_space));
 
@@ -125,10 +128,7 @@ alarm[0] = random_range(60,300);
 sprite_index = sprCasillero3
 }
 
-show_debug_message(drop);
-show_debug_message(dropquality);
-show_debug_message(droptype);
-show_debug_message("*****");
+
 </string>
           </argument>
         </arguments>

@@ -34,13 +34,13 @@ y = choose(192,288,384,480,576,672);
 Velocidad del enemigo.
 */
 
-vel = 2;
+vel = 3;
 
 /*
 Daño causado por el enemigo.
 */
 
-dmg = 30;
+dmg = 40;
 
 /*
 Salud o aguante del enemigo antes de morir.
@@ -469,7 +469,7 @@ goal2 = true;
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>objProfHist</whoName>
+        <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -481,6 +481,7 @@ if (distance_to_point(1000,y) &gt; 24)&amp;&amp;(goal1){
     x = x - vel;
     image_xscale = -1
     sprcorrerD = true;
+    show_debug_message(x)
 }
 else{
 while (alarm[0] = -1)&amp;&amp;(goal2 = false){
@@ -493,6 +494,7 @@ if (distance_to_point(1344,y) &gt; 24)&amp;&amp;(goal2){
     x = x + vel;
     image_xscale = 1
     sprcorrerI = true;
+    show_debug_message(x)
 }
 else{
 while (alarm[8] = -1)&amp;&amp;(goal1 = false){
@@ -822,7 +824,7 @@ draw_self();
 
 salud = (hlth/healthmax)*100;
 
-draw_healthbar(x - 44,y - 75,x + 44,y - 55,salud,c_gray,c_red,c_green,0,true,true);
+draw_healthbar(x - 64,y - 75,x + 64,y - 55,salud,c_gray,c_red,c_green,0,true,true);
 </string>
           </argument>
         </arguments>

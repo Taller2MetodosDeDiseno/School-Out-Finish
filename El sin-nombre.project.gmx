@@ -161,7 +161,7 @@
         </sprites>
       </sprites>
     </sprites>
-    <sprites name="Ambientacion">
+    <sprites name="sprsAmbientacion">
       <sprite>sprites\sprCasillero1</sprite>
       <sprite>sprites\sprCasillero2</sprite>
       <sprite>sprites\sprCasillero3</sprite>
@@ -281,6 +281,7 @@
         <object>objects\objEnergiz</object>
         <object>objects\objPapitas</object>
       </objects>
+      <object>objects\objDrop</object>
     </objects>
     <objects name="Ambientacion">
       <object>objects\objCasillero1</object>
